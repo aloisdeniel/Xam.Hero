@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+   <metadata minClientVersion="2.8.1">
+       <id>Xam.Hero</id>
+       <version>$version$</version>
+       <title>Hero for Xamarin.iOS</title>
+       <authors>Aloïs Deniel</authors>
+       <owners>Aloïs Deniel</owners>
+     <licenseUrl>https://github.com/aloisdeniel/Xam.Hero/blob/master/LICENSE</licenseUrl>
+     <projectUrl>https://github.com/aloisdeniel/Xam.Hero</projectUrl>
+     <iconUrl>https://raw.githubusercontent.com/aloisdeniel/Xam.Hero/master/Documentation/Logo.png</iconUrl>
+       <requireLicenseAcceptance>false</requireLicenseAcceptance>
+       <description>Xamarin.iOS bindings for Hero library (visual transition helper).</description>
+       <summary>Xamarin.iOS bindings for Hero library (visual transition helper).</summary>
+     <tags>iOS, Xamarin, bindings, hero, transition, animations</tags>
+     <dependencies>
+          <dependency id="Xamarin.Swift3" version="3.0.0" />
+          <dependency id="Xamarin.Swift3.Core" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.CoreGraphics" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.CoreImage" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.Darwin" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.Dispatch" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.Foundation" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.ObjectiveC" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.QuartzCore" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.SIMD" version="3.0.2" />
+          <dependency id="Xamarin.Swift3.UIKit" version="3.0.2" />
+      </dependencies>
+   </metadata>
+   <files>
+     <!-- iOS -->
+     <file src="../Sources/Xam.Hero/bin/Release/Xam.Hero.dll" target="lib/Xamarin.iOS10/Xam.Hero.dll" />
+   </files>
+</package>
