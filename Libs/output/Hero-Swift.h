@@ -238,6 +238,10 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Hero * _Nonn
 - (id <UIViewControllerInteractiveTransitioning> _Nullable)navigationController:(UINavigationController * _Nonnull)navigationController interactionControllerForAnimationController:(id <UIViewControllerAnimatedTransitioning> _Nonnull)animationController;
 @end
 
+
+@interface Hero (SWIFT_EXTENSION(Hero))
+@end
+
 @class UIColor;
 
 @interface Hero (SWIFT_EXTENSION(Hero))
@@ -251,10 +255,6 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) Hero * _Nonn
 
 */
 - (void)setContainerColorForNextTransition:(UIColor * _Nullable)color;
-@end
-
-
-@interface Hero (SWIFT_EXTENSION(Hero))
 @end
 
 
@@ -489,6 +489,18 @@ SWIFT_PROTOCOL("_TtP4Hero26HeroViewControllerDelegate_")
 @end
 
 
+@interface UINavigationController (SWIFT_EXTENSION(Hero))
+@end
+
+
+@interface UITabBarController (SWIFT_EXTENSION(Hero))
+@end
+
+
+@interface UIView (SWIFT_EXTENSION(Hero))
+@end
+
+
 @interface UIView (SWIFT_EXTENSION(Hero))
 /**
   <em>heroID</em> is the identifier for the view. When doing a transition between two view controllers,
@@ -505,9 +517,6 @@ SWIFT_PROTOCOL("_TtP4Hero26HeroViewControllerDelegate_")
 
 
 @interface UIViewController (SWIFT_EXTENSION(Hero))
-@property (nonatomic, strong) id <UINavigationControllerDelegate> _Nullable previousNavigationDelegate;
-@property (nonatomic, strong) id <UITabBarControllerDelegate> _Nullable previousTabBarDelegate;
-@property (nonatomic) BOOL isHeroEnabled;
 - (IBAction)ht_dismiss:(UIView * _Nonnull)sender;
 - (void)heroReplaceViewControllerWith:(UIViewController * _Nonnull)next;
 /**
@@ -540,6 +549,11 @@ SWIFT_PROTOCOL("_TtP4Hero26HeroViewControllerDelegate_")
 */
 - (void)hero_replaceViewControllerWith:(UIViewController * _Nonnull)next;
 - (void)hero_presentOnTopWithViewController:(UIViewController * _Nonnull)viewController frame:(CGRect)frame;
+@end
+
+
+@interface UIViewController (SWIFT_EXTENSION(Hero))
+@property (nonatomic) BOOL isHeroEnabled;
 @end
 
 #pragma clang diagnostic pop

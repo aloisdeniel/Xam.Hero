@@ -34,7 +34,6 @@ namespace Xam.Hero.Sampke
 				AutoresizingMask = UIViewAutoresizing.FlexibleDimensions,
 			};
 
-
 			redView.UserInteractionEnabled = true;
 			blackView.AddGestureRecognizer(new UITapGestureRecognizer(OnTap));
 
@@ -48,7 +47,7 @@ namespace Xam.Hero.Sampke
 			this.Hero().IsEnabled = true;
 			blackView.Hero().ID = "batman";
 			redView.Hero().ID = "ironman";
-			whiteView.Hero().ModifierString = "fade";
+			whiteView.Hero().Modifiers =  Modifiers.Fade();
 		}
 
 		void OnTap() => this.DismissViewController(true, () => {});

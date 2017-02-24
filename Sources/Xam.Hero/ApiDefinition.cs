@@ -6,6 +6,17 @@ using UIKit;
 
 namespace Lkzhao.Extensions
 {
+	// @interface Hero : HeroBaseController
+	[BaseType(typeof(NSObject))]
+	interface Hero
+	{
+		// @property (readonly, nonatomic, strong, class) Hero * _Nonnull shared;
+		[Static]
+		[Export("shared", ArgumentSemantic.Strong)]
+		Hero Shared { get; }
+	}
+
+
 	// @interface Hero_Swift_492 (UIView)
 	[Category]
 	[BaseType(typeof(UIView))]

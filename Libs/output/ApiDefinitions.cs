@@ -138,10 +138,17 @@ interface Hero_Hero_Swift_236 : IUINavigationControllerDelegate
 	UIViewControllerInteractiveTransitioning NavigationController (UINavigationController navigationController, UIViewControllerAnimatedTransitioning animationController);
 }
 
-// @interface Hero_Swift_243 (Hero)
+// @interface Hero_Swift_242 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_243
+interface Hero_Hero_Swift_242
+{
+}
+
+// @interface Hero_Swift_247 (Hero)
+[Category]
+[BaseType (typeof(Hero))]
+interface Hero_Hero_Swift_247
 {
 	// -(void)disableDefaultAnimationForNextTransition;
 	[Export ("disableDefaultAnimationForNextTransition")]
@@ -150,13 +157,6 @@ interface Hero_Hero_Swift_243
 	// -(void)setContainerColorForNextTransition:(UIColor * _Nullable)color;
 	[Export ("setContainerColorForNextTransition:")]
 	void SetContainerColorForNextTransition ([NullAllowed] UIColor color);
-}
-
-// @interface Hero_Swift_257 (Hero)
-[Category]
-[BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_257
-{
 }
 
 // @interface Hero_Swift_261 (Hero) <UIViewControllerInteractiveTransitioning>
@@ -394,10 +394,31 @@ interface UIImage_Hero_Swift_488
 {
 }
 
-// @interface Hero_Swift_492 (UIView)
+// @interface Hero_Swift_492 (UINavigationController)
+[Category]
+[BaseType (typeof(UINavigationController))]
+interface UINavigationController_Hero_Swift_492
+{
+}
+
+// @interface Hero_Swift_496 (UITabBarController)
+[Category]
+[BaseType (typeof(UITabBarController))]
+interface UITabBarController_Hero_Swift_496
+{
+}
+
+// @interface Hero_Swift_500 (UIView)
 [Category]
 [BaseType (typeof(UIView))]
-interface UIView_Hero_Swift_492
+interface UIView_Hero_Swift_500
+{
+}
+
+// @interface Hero_Swift_504 (UIView)
+[Category]
+[BaseType (typeof(UIView))]
+interface UIView_Hero_Swift_504
 {
 	// @property (copy, nonatomic) NSString * _Nullable heroID;
 	[NullAllowed, Export ("heroID")]
@@ -408,31 +429,11 @@ interface UIView_Hero_Swift_492
 	string HeroModifierString { get; set; }
 }
 
-// @interface Hero_Swift_507 (UIViewController)
+// @interface Hero_Swift_519 (UIViewController)
 [Category]
 [BaseType (typeof(UIViewController))]
-interface UIViewController_Hero_Swift_507
+interface UIViewController_Hero_Swift_519
 {
-	[Wrap ("WeakPreviousNavigationDelegate")]
-	[NullAllowed]
-	UINavigationControllerDelegate PreviousNavigationDelegate { get; set; }
-
-	// @property (nonatomic, strong) id<UINavigationControllerDelegate> _Nullable previousNavigationDelegate;
-	[NullAllowed, Export ("previousNavigationDelegate", ArgumentSemantic.Strong)]
-	NSObject WeakPreviousNavigationDelegate { get; set; }
-
-	[Wrap ("WeakPreviousTabBarDelegate")]
-	[NullAllowed]
-	UITabBarControllerDelegate PreviousTabBarDelegate { get; set; }
-
-	// @property (nonatomic, strong) id<UITabBarControllerDelegate> _Nullable previousTabBarDelegate;
-	[NullAllowed, Export ("previousTabBarDelegate", ArgumentSemantic.Strong)]
-	NSObject WeakPreviousTabBarDelegate { get; set; }
-
-	// @property (nonatomic) BOOL isHeroEnabled;
-	[Export ("isHeroEnabled")]
-	bool IsHeroEnabled { get; set; }
-
 	// -(void)ht_dismiss:(UIView * _Nonnull)sender __attribute__((ibaction));
 	[Export ("ht_dismiss:")]
 	void Ht_dismiss (UIView sender);
@@ -472,4 +473,14 @@ interface UIViewController_Hero_Swift_507
 	// -(void)hero_presentOnTopWithViewController:(UIViewController * _Nonnull)viewController frame:(CGRect)frame;
 	[Export ("hero_presentOnTopWithViewController:frame:")]
 	void Hero_presentOnTopWithViewController (UIViewController viewController, CGRect frame);
+}
+
+// @interface Hero_Swift_555 (UIViewController)
+[Category]
+[BaseType (typeof(UIViewController))]
+interface UIViewController_Hero_Swift_555
+{
+	// @property (nonatomic) BOOL isHeroEnabled;
+	[Export ("isHeroEnabled")]
+	bool IsHeroEnabled { get; set; }
 }
