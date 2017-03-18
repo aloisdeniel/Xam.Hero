@@ -35,10 +35,11 @@ public class E1DestViewController : UIViewController
 		base.ViewDidLoad();
 		
 		this.Hero().IsEnabled = true;
+			this.Hero().SetModalAnimation(HeroDefaultAnimationType.PageIn, HeroAnimationDirection.Right);
 		
 		blackView.Hero().ID = "batman";
 		redView.Hero().ID = "ironman";
-		whiteView.Hero().ModifierString = "fade";
+		whiteView.Hero().Modifiers = Modifiers.Fade().Duration(2);
 	}
 }
 ```

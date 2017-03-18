@@ -1,21 +1,20 @@
 using System;
 using CoreAnimation;
-using CoreGraphics;
 using Foundation;
 using ObjCRuntime;
 using UIKit;
 
-// @interface Hero_Swift_128 (CALayer)
+// @interface Hero_Swift_127 (CALayer)
 [Category]
 [BaseType (typeof(CALayer))]
-interface CALayer_Hero_Swift_128
+interface CALayer_Hero_Swift_127
 {
 }
 
-// @interface Hero_Swift_132 (CAMediaTimingFunction)
+// @interface Hero_Swift_131 (CAMediaTimingFunction)
 [Category]
 [BaseType (typeof(CAMediaTimingFunction))]
-interface CAMediaTimingFunction_Hero_Swift_132
+interface CAMediaTimingFunction_Hero_Swift_131
 {
 }
 
@@ -71,31 +70,31 @@ interface Hero
 	double Progress { get; set; }
 }
 
-// @interface Hero_Swift_207 (Hero)
+// @interface Hero_Swift_206 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_207
+interface Hero_Hero_Swift_206
 {
 }
 
-// @interface Hero_Swift_211 (Hero)
+// @interface Hero_Swift_210 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_211
+interface Hero_Hero_Swift_210
 {
 }
 
-// @interface Hero_Swift_215 (Hero)
+// @interface Hero_Swift_214 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_215
+interface Hero_Hero_Swift_214
 {
 }
 
-// @interface Hero_Swift_222 (Hero) <UITabBarControllerDelegate>
+// @interface Hero_Swift_221 (Hero) <UITabBarControllerDelegate>
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_222 : IUITabBarControllerDelegate
+interface Hero_Hero_Swift_221 : IUITabBarControllerDelegate
 {
 	// -(id<UIViewControllerInteractiveTransitioning> _Nullable)tabBarController:(UITabBarController * _Nonnull)tabBarController interactionControllerForAnimationController:(id<UIViewControllerAnimatedTransitioning> _Nonnull)animationController;
 	[Export ("tabBarController:interactionControllerForAnimationController:")]
@@ -108,10 +107,10 @@ interface Hero_Hero_Swift_222 : IUITabBarControllerDelegate
 	UIViewControllerAnimatedTransitioning TabBarController (UITabBarController tabBarController, UIViewController fromVC, UIViewController toVC);
 }
 
-// @interface Hero_Swift_229 (Hero) <UIViewControllerAnimatedTransitioning>
+// @interface Hero_Swift_228 (Hero) <UIViewControllerAnimatedTransitioning>
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_229 : IUIViewControllerAnimatedTransitioning
+interface Hero_Hero_Swift_228 : IUIViewControllerAnimatedTransitioning
 {
 	// -(void)animateTransition:(id<UIViewControllerContextTransitioning> _Nonnull)context;
 	[Export ("animateTransition:")]
@@ -122,10 +121,10 @@ interface Hero_Hero_Swift_229 : IUIViewControllerAnimatedTransitioning
 	double TransitionDuration ([NullAllowed] UIViewControllerContextTransitioning transitionContext);
 }
 
-// @interface Hero_Swift_236 (Hero) <UINavigationControllerDelegate>
+// @interface Hero_Swift_235 (Hero) <UINavigationControllerDelegate>
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_236 : IUINavigationControllerDelegate
+interface Hero_Hero_Swift_235 : IUINavigationControllerDelegate
 {
 	// -(id<UIViewControllerAnimatedTransitioning> _Nullable)navigationController:(UINavigationController * _Nonnull)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController * _Nonnull)fromVC toViewController:(UIViewController * _Nonnull)toVC;
 	[Export ("navigationController:animationControllerForOperation:fromViewController:toViewController:")]
@@ -138,17 +137,17 @@ interface Hero_Hero_Swift_236 : IUINavigationControllerDelegate
 	UIViewControllerInteractiveTransitioning NavigationController (UINavigationController navigationController, UIViewControllerAnimatedTransitioning animationController);
 }
 
-// @interface Hero_Swift_242 (Hero)
+// @interface Hero_Swift_241 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_242
+interface Hero_Hero_Swift_241
 {
 }
 
-// @interface Hero_Swift_247 (Hero)
+// @interface Hero_Swift_246 (Hero)
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_247
+interface Hero_Hero_Swift_246
 {
 	// -(void)disableDefaultAnimationForNextTransition;
 	[Export ("disableDefaultAnimationForNextTransition")]
@@ -159,10 +158,10 @@ interface Hero_Hero_Swift_247
 	void SetContainerColorForNextTransition ([NullAllowed] UIColor color);
 }
 
-// @interface Hero_Swift_261 (Hero) <UIViewControllerInteractiveTransitioning>
+// @interface Hero_Swift_260 (Hero) <UIViewControllerInteractiveTransitioning>
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_261 : IUIViewControllerInteractiveTransitioning
+interface Hero_Hero_Swift_260 : IUIViewControllerInteractiveTransitioning
 {
 	// @property (readonly, nonatomic) BOOL wantsInteractiveStart;
 	[Export ("wantsInteractiveStart")]
@@ -173,10 +172,10 @@ interface Hero_Hero_Swift_261 : IUIViewControllerInteractiveTransitioning
 	void StartInteractiveTransition (UIViewControllerContextTransitioning transitionContext);
 }
 
-// @interface Hero_Swift_267 (Hero) <UIViewControllerTransitioningDelegate>
+// @interface Hero_Swift_266 (Hero) <UIViewControllerTransitioningDelegate>
 [Category]
 [BaseType (typeof(Hero))]
-interface Hero_Hero_Swift_267 : IUIViewControllerTransitioningDelegate
+interface Hero_Hero_Swift_266 : IUIViewControllerTransitioningDelegate
 {
 	// -(id<UIViewControllerAnimatedTransitioning> _Nullable)animationControllerForPresentedController:(UIViewController * _Nonnull)presented presentingController:(UIViewController * _Nonnull)presenting sourceController:(UIViewController * _Nonnull)source;
 	[Export ("animationControllerForPresentedController:presentingController:sourceController:")]
@@ -199,24 +198,24 @@ interface Hero_Hero_Swift_267 : IUIViewControllerTransitioningDelegate
 	UIViewControllerInteractiveTransitioning InteractionControllerForPresentation (UIViewControllerAnimatedTransitioning animator);
 }
 
-// @interface Hero_Swift_276 (HeroBaseController)
+// @interface Hero_Swift_275 (HeroBaseController)
 [Category]
 [BaseType (typeof(HeroBaseController))]
-interface HeroBaseController_Hero_Swift_276
+interface HeroBaseController_Hero_Swift_275
 {
 }
 
-// @interface Hero_Swift_280 (HeroBaseController)
+// @interface Hero_Swift_279 (HeroBaseController)
 [Category]
 [BaseType (typeof(HeroBaseController))]
-interface HeroBaseController_Hero_Swift_280
+interface HeroBaseController_Hero_Swift_279
 {
 }
 
-// @interface Hero_Swift_284 (HeroBaseController)
+// @interface Hero_Swift_283 (HeroBaseController)
 [Category]
 [BaseType (typeof(HeroBaseController))]
-interface HeroBaseController_Hero_Swift_284
+interface HeroBaseController_Hero_Swift_283
 {
 	// -(void)updateWithProgress:(double)progress;
 	[Export ("updateWithProgress:")]
@@ -231,10 +230,10 @@ interface HeroBaseController_Hero_Swift_284
 	void CancelWithAnimate (bool animate);
 }
 
-// @interface Hero_Swift_312 (HeroBaseController)
+// @interface Hero_Swift_311 (HeroBaseController)
 [Category]
 [BaseType (typeof(HeroBaseController))]
-interface HeroBaseController_Hero_Swift_312
+interface HeroBaseController_Hero_Swift_311
 {
 }
 
@@ -275,6 +274,11 @@ interface HeroPlugin
 [BaseType (typeof(HeroPlugin))]
 interface HeroDebugPlugin
 {
+	// @property (nonatomic, class) BOOL showOnTop;
+	[Static]
+	[Export ("showOnTop")]
+	bool ShowOnTop { get; set; }
+
 	// -(NSTimeInterval)animateFromViews:(NSArray<UIView *> * _Nonnull)fromViews toViews:(NSArray<UIView *> * _Nonnull)toViews;
 	[Export ("animateFromViews:toViews:")]
 	double AnimateFromViews (UIView[] fromViews, UIView[] toViews);
@@ -288,10 +292,10 @@ interface HeroDebugPlugin
 	void Clean ();
 }
 
-// @interface Hero_Swift_442 (HeroDebugPlugin)
+// @interface Hero_Swift_444 (HeroDebugPlugin)
 [Category]
 [BaseType (typeof(HeroDebugPlugin))]
-interface HeroDebugPlugin_Hero_Swift_442
+interface HeroDebugPlugin_Hero_Swift_444
 {
 	// -(void)onDone;
 	[Export ("onDone")]
@@ -311,10 +315,10 @@ interface HeroIndependentController
 	void TransitionWithRootView (UIView rootView, UIView[] fromViews, UIView[] toViews, [NullAllowed] Action<bool> completion);
 }
 
-// @interface Hero_Swift_456 (HeroPlugin)
+// @interface Hero_Swift_458 (HeroPlugin)
 [Category]
 [BaseType (typeof(HeroPlugin))]
-interface HeroPlugin_Hero_Swift_456
+interface HeroPlugin_Hero_Swift_458
 {
 	// @property (nonatomic, class) BOOL isEnabled;
 	[Static]
@@ -373,52 +377,58 @@ interface HeroViewControllerDelegate
 	void HeroDidCancelAnimatingToViewController (UIViewController viewController);
 }
 
-// @interface Hero_Swift_480 (NSObject)
+// @interface Hero_Swift_482 (NSObject)
 [Category]
 [BaseType (typeof(NSObject))]
-interface NSObject_Hero_Swift_480
+interface NSObject_Hero_Swift_482
 {
 }
 
-// @interface Hero_Swift_484 (UIColor)
+// @interface Hero_Swift_486 (UIColor)
 [Category]
 [BaseType (typeof(UIColor))]
-interface UIColor_Hero_Swift_484
+interface UIColor_Hero_Swift_486
 {
 }
 
-// @interface Hero_Swift_488 (UIImage)
+// @interface Hero_Swift_490 (UIImage)
 [Category]
 [BaseType (typeof(UIImage))]
-interface UIImage_Hero_Swift_488
+interface UIImage_Hero_Swift_490
 {
 }
 
-// @interface Hero_Swift_492 (UINavigationController)
+// @interface Hero_Swift_494 (UINavigationController)
 [Category]
 [BaseType (typeof(UINavigationController))]
-interface UINavigationController_Hero_Swift_492
+interface UINavigationController_Hero_Swift_494
 {
+	// @property (copy, nonatomic) NSString * _Nullable heroNavigationAnimationTypeString;
+	[NullAllowed, Export ("heroNavigationAnimationTypeString")]
+	string HeroNavigationAnimationTypeString { get; set; }
 }
 
-// @interface Hero_Swift_496 (UITabBarController)
+// @interface Hero_Swift_499 (UITabBarController)
 [Category]
 [BaseType (typeof(UITabBarController))]
-interface UITabBarController_Hero_Swift_496
+interface UITabBarController_Hero_Swift_499
 {
-}
-
-// @interface Hero_Swift_500 (UIView)
-[Category]
-[BaseType (typeof(UIView))]
-interface UIView_Hero_Swift_500
-{
+	// @property (copy, nonatomic) NSString * _Nullable heroTabBarAnimationTypeString;
+	[NullAllowed, Export ("heroTabBarAnimationTypeString")]
+	string HeroTabBarAnimationTypeString { get; set; }
 }
 
 // @interface Hero_Swift_504 (UIView)
 [Category]
 [BaseType (typeof(UIView))]
 interface UIView_Hero_Swift_504
+{
+}
+
+// @interface Hero_Swift_508 (UIView)
+[Category]
+[BaseType (typeof(UIView))]
+interface UIView_Hero_Swift_508
 {
 	// @property (copy, nonatomic) NSString * _Nullable heroID;
 	[NullAllowed, Export ("heroID")]
@@ -429,10 +439,10 @@ interface UIView_Hero_Swift_504
 	string HeroModifierString { get; set; }
 }
 
-// @interface Hero_Swift_519 (UIViewController)
+// @interface Hero_Swift_523 (UIViewController)
 [Category]
 [BaseType (typeof(UIViewController))]
-interface UIViewController_Hero_Swift_519
+interface UIViewController_Hero_Swift_523
 {
 	// -(void)ht_dismiss:(UIView * _Nonnull)sender __attribute__((ibaction));
 	[Export ("ht_dismiss:")]
@@ -469,17 +479,17 @@ interface UIViewController_Hero_Swift_519
 	// -(void)hero_replaceViewControllerWith:(UIViewController * _Nonnull)next;
 	[Export ("hero_replaceViewControllerWith:")]
 	void Hero_replaceViewControllerWith (UIViewController next);
-
-	// -(void)hero_presentOnTopWithViewController:(UIViewController * _Nonnull)viewController frame:(CGRect)frame;
-	[Export ("hero_presentOnTopWithViewController:frame:")]
-	void Hero_presentOnTopWithViewController (UIViewController viewController, CGRect frame);
 }
 
-// @interface Hero_Swift_555 (UIViewController)
+// @interface Hero_Swift_558 (UIViewController)
 [Category]
 [BaseType (typeof(UIViewController))]
-interface UIViewController_Hero_Swift_555
+interface UIViewController_Hero_Swift_558
 {
+	// @property (copy, nonatomic) NSString * _Nullable heroModalAnimationTypeString;
+	[NullAllowed, Export ("heroModalAnimationTypeString")]
+	string HeroModalAnimationTypeString { get; set; }
+
 	// @property (nonatomic) BOOL isHeroEnabled;
 	[Export ("isHeroEnabled")]
 	bool IsHeroEnabled { get; set; }

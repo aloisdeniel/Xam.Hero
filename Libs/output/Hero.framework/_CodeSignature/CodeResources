@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/Hero-Swift.h</key>
 		<data>
-		lsR7awsOZsv8GRnvwl1Ee8pFhYY=
+		3O5AN6rKBHsY0SGGP0XAwd9Ys8g=
 		</data>
 		<key>Headers/Hero.h</key>
 		<data>
@@ -14,23 +14,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		9XgqXa3b8DkCAjrR/XJWaRsJcbw=
+		L0/wFnhFRTYnwe1LBSVVbALxSWg=
 		</data>
 		<key>Modules/Hero.swiftmodule/i386.swiftdoc</key>
 		<data>
-		1DpSKhJwB5bqiKaxGWds0KUnN2Y=
+		UoULBzLf9BDLgBJi8fxMEXT4cns=
 		</data>
 		<key>Modules/Hero.swiftmodule/i386.swiftmodule</key>
 		<data>
-		liu3/xEfN6HiA8HfzVhW2ly/rl4=
+		rahTWPr9kc4TjWE0KlFR6MZaiB4=
 		</data>
 		<key>Modules/Hero.swiftmodule/x86_64.swiftdoc</key>
 		<data>
-		Kzy4CqyMxes7HePar/TzzgVeXh0=
+		mko2aYJHAdhTR267yM6fTgQVJ8E=
 		</data>
 		<key>Modules/Hero.swiftmodule/x86_64.swiftmodule</key>
 		<data>
-		56NutNcmMkB0B08zPKHQBRSWj9U=
+		lbpvKNwEnUgxp//6xZP9kTlXLCs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -43,11 +43,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			lsR7awsOZsv8GRnvwl1Ee8pFhYY=
+			3O5AN6rKBHsY0SGGP0XAwd9Ys8g=
 			</data>
 			<key>hash2</key>
 			<data>
-			z6n/L85T4+a2ZqocVmXn4V2x/SzDILnlQX3GPJHrSR0=
+			EbpPjLg4iRbaYab1hLA8ninYQPefZFbaU872Bw+hsgA=
 			</data>
 		</dict>
 		<key>Headers/Hero.h</key>
@@ -65,44 +65,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			1DpSKhJwB5bqiKaxGWds0KUnN2Y=
+			UoULBzLf9BDLgBJi8fxMEXT4cns=
 			</data>
 			<key>hash2</key>
 			<data>
-			giaJqr39ssY4raiTBqAxXhE5fM6896WlHacOANwvHW4=
+			5lZm1R0INbXc9h36WscQTitM7QIAXXjX14Uqd3KTsJ0=
 			</data>
 		</dict>
 		<key>Modules/Hero.swiftmodule/i386.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			liu3/xEfN6HiA8HfzVhW2ly/rl4=
+			rahTWPr9kc4TjWE0KlFR6MZaiB4=
 			</data>
 			<key>hash2</key>
 			<data>
-			dxUPLrjaRCOvHUDuoZSczWyO/T+2++2n3O4WphzUTXo=
+			De+AScaIBkwJNA25W6gKkJOkw9Aedxh2qgPpPqQvGPw=
 			</data>
 		</dict>
 		<key>Modules/Hero.swiftmodule/x86_64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kzy4CqyMxes7HePar/TzzgVeXh0=
+			mko2aYJHAdhTR267yM6fTgQVJ8E=
 			</data>
 			<key>hash2</key>
 			<data>
-			2I2geKNfXu2ejv8bnpPa9WZMpBoUNJEQJvpE95PUhj0=
+			lpvTynsO9p9CNUQADz+g+XKjrFSrqviwH6QXZWlUX5U=
 			</data>
 		</dict>
 		<key>Modules/Hero.swiftmodule/x86_64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			56NutNcmMkB0B08zPKHQBRSWj9U=
+			lbpvKNwEnUgxp//6xZP9kTlXLCs=
 			</data>
 			<key>hash2</key>
 			<data>
-			v7b2aRTHFmx8fXw5A58cGXunfIZQKTklrdgjCL/WSF4=
+			IDD1NWfTHePLL8njqYG1WvD+PR2+XqNDDngZBqH+Mas=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

@@ -29,6 +29,6 @@
    </metadata>
    <files>
      <!-- iOS -->
-     <file src="../Sources/Xam.Hero/bin/Release/Xam.Hero.dll" target="lib/Xamarin.iOS10/Xam.Hero.dll" />
+     <file src="/Users/alois/Xam.Hero/Sources/Xam.Hero/bin/Release/Xam.Hero.dll" target="lib/Xamarin.iOS10/Xam.Hero.dll" />
    </files>
 </package>

@@ -119,7 +119,6 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 @import ObjectiveC;
 @import Foundation;
 @import UIKit;
-@import CoreGraphics;
 #endif
 
 #pragma clang diagnostic ignored "-Wproperty-attribute-mismatch"
@@ -432,6 +431,9 @@ SWIFT_CLASS("_TtC4Hero10HeroPlugin")
 
 SWIFT_CLASS("_TtC4Hero15HeroDebugPlugin")
 @interface HeroDebugPlugin : HeroPlugin
+SWIFT_CLASS_PROPERTY(@property (nonatomic, class) BOOL showOnTop;)
++ (BOOL)showOnTop;
++ (void)setShowOnTop:(BOOL)value;
 - (NSTimeInterval)animateFromViews:(NSArray<UIView *> * _Nonnull)fromViews toViews:(NSArray<UIView *> * _Nonnull)toViews;
 - (NSTimeInterval)resumeWithTimePassed:(NSTimeInterval)timePassed reverse:(BOOL)reverse;
 - (void)clean;
@@ -490,10 +492,12 @@ SWIFT_PROTOCOL("_TtP4Hero26HeroViewControllerDelegate_")
 
 
 @interface UINavigationController (SWIFT_EXTENSION(Hero))
+@property (nonatomic, copy) NSString * _Nullable heroNavigationAnimationTypeString;
 @end
 
 
 @interface UITabBarController (SWIFT_EXTENSION(Hero))
+@property (nonatomic, copy) NSString * _Nullable heroTabBarAnimationTypeString;
 @end
 
 
@@ -548,11 +552,11 @@ SWIFT_PROTOCOL("_TtP4Hero26HeroViewControllerDelegate_")
   Replace the current view controller with another VC on the navigation/modal stack.
 */
 - (void)hero_replaceViewControllerWith:(UIViewController * _Nonnull)next;
-- (void)hero_presentOnTopWithViewController:(UIViewController * _Nonnull)viewController frame:(CGRect)frame;
 @end
 
 
 @interface UIViewController (SWIFT_EXTENSION(Hero))
+@property (nonatomic, copy) NSString * _Nullable heroModalAnimationTypeString;
 @property (nonatomic) BOOL isHeroEnabled;
 @end
 

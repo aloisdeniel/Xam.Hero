@@ -37,11 +37,46 @@ namespace Lkzhao.Extensions
 		void SetHeroModifierString(string modifier);
 	}
 
+	// @interface Hero_Swift_494 (UINavigationController)
+	[Category]
+	[BaseType(typeof(UINavigationController))]
+	interface UINavigationController_Hero_Swift_494
+	{
+		// @property (copy, nonatomic) NSString * _Nullable heroNavigationAnimationTypeString;
+
+		[Export("heroNavigationAnimationTypeString")]
+		string HeroNavigationAnimationTypeString();
+
+		[Export("setHeroNavigationAnimationTypeString:")]
+		void SetHeroNavigationAnimationTypeString(string modifier);
+	}
+
+	// @interface Hero_Swift_499 (UITabBarController)
+	[Category]
+	[BaseType(typeof(UITabBarController))]
+	interface UITabBarController_Hero_Swift_499
+	{
+		// @property (copy, nonatomic) NSString * _Nullable heroTabBarAnimationTypeString;
+		[Export("heroTabBarAnimationTypeString")]
+		string HeroTabBarAnimationTypeString();
+
+		[Export("setHeroTabBarAnimationTypeString:")]
+		void SetHeroTabBarAnimationTypeString(string modifier);
+
+	}
+
 	// @interface Hero_Swift_507 (UIViewController)
 	[Category]
 	[BaseType(typeof(UIViewController))]
 	interface UIViewController_Hero_Swift_507
 	{
+		// @property (copy, nonatomic) NSString * _Nullable heroModalAnimationTypeString;
+		[Export("heroModalAnimationTypeString")]
+		string HeroModalAnimationTypeString();
+
+		[Export("setHeroModalAnimationTypeString:")]
+		void SetHeroModalAnimationTypeString(string modifier);
+
 		// @property (nonatomic) BOOL isHeroEnabled;
 		[Export("isHeroEnabled")]
 		bool IsHeroEnabled();
