@@ -18,7 +18,7 @@ cp -rf input/Release-iphonesimulator/$framework.framework output/$framework.fram
 lipo -create input/Release-iphonesimulator/$framework.framework/$framework input/Release-iphoneos/$framework.framework/$framework -output output/$framework.framework/$framework
 
 ## Copy result to output
-cp -r input/Release-iphonesimulator/$framework.framework/Modules/$framework.swiftmodule/ output/$framework.framework/Modules/$framework.swiftmodule
+cp -r input/Release-iphoneos/$framework.framework/Modules/$framework.swiftmodule output/$framework.framework/Modules/$framework.swiftmodule
 
 ### -----------------------------------------
 ### GENERATE API DEFINITION
