@@ -30,7 +30,6 @@ Global
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|Any CPU.ActiveCfg = Debug|iPhoneSimulator
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|Any CPU.Build.0 = Debug|iPhoneSimulator
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Release|Any CPU.ActiveCfg = Release|iPhone
-		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Release|Any CPU.Build.0 = Release|iPhone
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Release|iPhone.ActiveCfg = Release|iPhone
@@ -39,5 +38,9 @@ Global
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|iPhone.ActiveCfg = Debug|iPhone
 		{CA564492-F8C9-4D28-860B-CE3DC20A9DD6}.Debug|iPhone.Build.0 = Debug|iPhone
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
 	EndGlobalSection
 EndGlobal
