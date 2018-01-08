@@ -8,6 +8,7 @@ namespace Lkzhao.Extensions
 {
 	// @interface Hero : HeroBaseController
 	[BaseType(typeof(NSObject))]
+	[Protocol]
 	interface Hero
 	{
 		// @property (readonly, nonatomic, strong, class) Hero * _Nonnull shared;
